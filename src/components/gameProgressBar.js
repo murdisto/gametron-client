@@ -85,15 +85,15 @@ export class GameProgressBar extends React.Component {
             <Line percent={currentUserPercentProgress}
                   strokeWidth="4"
                   trailWidth="3.75"
-                  trailColor="#bebec8"
-                  strokeColor="#4aa84a"
+                  trailColor="#e9e9ec"
+                  strokeColor="#2196f3"
                   strokeLinecap='round'/>{currentUserScore} points out of {this.props.allGameData.endScore} possible points
             <h3>Overall game progress so far is: {allUsersPercent}% </h3>
             <Line percent={allUsersPercent}
                   strokeWidth="4"
                   trailWidth="3.75"
-                  trailColor="#bebec8"
-                  strokeColor="#000080"
+                  trailColor="#e9e9ec"
+                  strokeColor="#2196f3"
                   strokeLinecap='round'/>{topUserPoints} points out of {this.props.allGameData.endScore} possible points
             </div>
         </div>

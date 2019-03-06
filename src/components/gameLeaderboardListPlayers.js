@@ -12,13 +12,11 @@ export default function GameLeaderboardListPlayers(props) {
 // > List all other players after with rank #
 //Logic to determine if game is over and show end of game info
 
-// console.log('GAME DATA @ LIST: ',props.gameParticipants);
 
 let rankedPlayersListItem = <p>No Players Yet</p>;  
 let theWinner = null;
 let secondPlace = null;
 let thirdPlace = null;  
-let baseColor = 0;//35;//parseInt(256 * Math.random());//225
 let pageTitle = <h2>Game Leaderboard: </h2>
 const theEndScore = parseInt(props.gameEndScore);
   
@@ -54,20 +52,12 @@ if(props.gameParticipants.length > 0){
 
      
     const playerPercentProgress = ((parseInt(props.gameParticipants[index].score)/theEndScore) * 100).toFixed(2);   
-
-    function randomHSL(){
-      return `hsl(${baseColor}, ${(playerArrSorted.length/index) * 30}%, 50%,1)`;
-    }
-
-    const randomColor = index === 0
-      ? `hsl(${baseColor},100%, 50%,1)` 
-      : randomHSL()
-     
+  
     const progressBar = <Line percent={playerPercentProgress}
                           strokeWidth="4"
                           trailWidth="3.75"
-                          trailColor="#bebec8"
-                          strokeColor={randomColor}
+                          trailColor="#e9e9ec"
+                          strokeColor="#2196f3"
                           strokeLinecap='round'/>
    
     let playerName = props.gameParticipants[index].userId.username;

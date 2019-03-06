@@ -92,4 +92,10 @@
   .onePost img {
     width: 50%;
   }
+
+  .postFocusWindow ul {
+  /* border: solid red 1px; */
+    width: 33%;
+    margin: auto;
+  }
 }
