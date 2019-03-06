@@ -1,0 +1,38 @@
+.dashboard{
+    margin: 0;
+    
+}
+
+.full-display{
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    height: 100vh;
+    padding-top: 75px;
+    
+}
+
+.display-area{
+    background-color: aliceblue;
+    /* border: solid red 1px; */
+    width: 100%;
+    margin-bottom: 25vh;
+    min-height: 75vh;
+    overflow: -moz-hidden-unscrollable;
+    overflow: hidden;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .full-display{
+        flex-wrap: nowrap;
+        padding-top: 75px;
+        
+    }
+
+    .display-area{
+        margin-bottom: 75px;
+        
+    }
+}

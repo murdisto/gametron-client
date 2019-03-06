@@ -1,0 +1,27 @@
+.header-bar {
+    background-color: rgb(52, 57, 62);
+    font-style: oblique;
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 1px;
+}
+
+
+.header-bar h1 {
+    margin-left: 25px;
+}
+
+
+.header-bar button {
+    border: none;
+    background-color: transparent;
+    
+    margin-right: 10px;
+    align-self: center;
+    color: rgb( 33, 150, 243);
+    box-shadow: none;
+}

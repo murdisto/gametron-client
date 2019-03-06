@@ -1,0 +1,79 @@
+.home {
+  box-sizing: border-box;
+  margin-top: 10px;
+  padding: 0;
+  border: 0;
+  margin: auto; 
+}
+.home p {
+  margin: 5px;
+}
+
+.logIn {
+  padding-top: 20px;
+}
+
+
+
+.home h1 {
+  margin: 0;
+  font-size: 3.5em;
+  font-style: oblique;
+}
+
+.home h2 {
+  font-size: 1.2em;
+}
+
+.home input {
+  margin-bottom: 10px;
+  width: 75%;
+}
+
+.home label {
+  display: none;
+}
+
+.home.card  {
+  display: flex;
+  width: 90vw;
+  min-height: 90vh;
+}
+
+.home .link,
+.submit-link {
+  color: rgb( 33, 150, 243);
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+@media screen and (min-width: 600px) {
+  .logIn.subcard {
+    width: 33vw;
+  }
+
+  .home.card  {
+    display: flex;
+    width: 50vw;
+    min-height: 33vh !important;
+    margin-top: 20vh;
+    margin-bottom: 25vh;
+  }
+
+   .app.main {
+    align-self: center;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .logIn.subcard {
+    width: 25vw;
+  }
+
+  .home.card  {
+    display: flex;
+    width: 33vw;
+    min-height: 33vh !important;
+  }
+}
