@@ -15,7 +15,7 @@ export function RegistrationPage(props) {
     return (
 
         <div className="home card">
-            <h1>Game-A-Tron</h1>
+            <h1>Gametron</h1>
             <RegistrationForm />
             <div className='link'>
             <Link className='link'to="/">Login</Link>

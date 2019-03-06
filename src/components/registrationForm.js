@@ -62,7 +62,6 @@ export class RegistrationForm extends React.Component {
                     disabled={this.props.pristine || this.props.submitting}>
                     Register
                 </button>
-                <p>Please Note: You are not required to give us your email.  If you do, we will only use it to reset your password.</p>
             </form>
         );
     }

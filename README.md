@@ -1,4 +1,4 @@
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bbb9764f-a995-4807-a6a9-7b675f052c9f/deploy-status)](https://app.netlify.com/sites/gametron/deploys)
 
 
 
@@ -8,9 +8,9 @@
 
 
 ## Links
-- [Client Repo]()
-- [Server Repo]()
-- [Deployed Client]()
+- [Client Repo](https://github.com/murdisto/gametron-client)
+- [Server Repo](https://github.com/murdisto/gametron-server)
+- [Deployed Client](https://gametron.netlify.com/)
 
 
 
