@@ -16,9 +16,11 @@
 
 
 .home h1 {
-  margin: 0;
+  margin-top: 0;
   font-size: 3.5em;
   font-style: oblique;
+  align-self: center;
+
 }
 
 .home h2 {
@@ -45,6 +47,10 @@
   color: rgb( 33, 150, 243);
   cursor:pointer;
   text-decoration:underline;
+}
+
+.link {
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 600px) {
