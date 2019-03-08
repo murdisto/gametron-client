@@ -14,11 +14,6 @@
 
 
 
-## ScreenShots
-
-
-
-
 ## Development Stack
 **Front End:**
   - React
