@@ -6,6 +6,11 @@
 ## About
   Gametron is a web application that helps people to gamify their lives. 
 
+## Screenshots
+<img src="screenshots/gametron.png" alt="sign in" width="800px" />
+<br />
+<img src="screenshots/gametronmob.png" alt="" width="400px" />
+
 
 ## Links
 - [Client Repo](https://github.com/murdisto/gametron-client)
