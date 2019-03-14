@@ -17,7 +17,7 @@
 - [Server Repo](https://github.com/murdisto/gametron-server)
 - [Deployed Client](https://gametron.netlify.com/)
 
-## API Overview
+## API
 ```        
 ├── /auth
 │   └── POST
