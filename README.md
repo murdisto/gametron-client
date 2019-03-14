@@ -17,7 +17,38 @@
 - [Server Repo](https://github.com/murdisto/gametron-server)
 - [Deployed Client](https://gametron.netlify.com/)
 
-
+## API Overview
+```        
+├── /auth
+│   └── POST
+│       ├── /login
+│       ├── /refresh
+├── /users
+│   └── POST /
+│   └── GET
+│       ├── /:id
+├── /games
+│   └── GET
+│       ├── /
+│       ├── /:id
+│   └── POST /
+│   └── PUT /:id
+│       ├── /join/:id
+│       ├── /leave/:id
+│       ├── /scores/:id
+│   └── DELETE /:id
+├── /posts
+│   └── GET /
+│       ├── /:id
+│   └── POST /
+│   └── PUT /:id
+│   └── DELETE /:id
+├── /image-upload
+│   └── POST /
+├── /email
+│   └── POST /
+│   └── GET /confirm/:id
+``` 
 
 ## Development Stack
 **Front End:**
